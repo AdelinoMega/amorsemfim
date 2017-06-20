@@ -408,7 +408,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7674', end
 }
 .login-logo img{
 	position:relative;
-	margin-top:20%;
+	margin-top:0%;
 	margin-left:25%;	
 	width:50%;
 	max-height:100%;
