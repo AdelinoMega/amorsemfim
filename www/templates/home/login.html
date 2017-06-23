@@ -25,7 +25,13 @@
 		</div>
 		<div class="social-container">
 			<div class="social fb" ng-click="fb();"><i class="icon ion-social-facebook"></i> <span data-lid="7"></span> facebook</div>
-			<div class="social"> </div>
+			<div class="social"> 
+      <fb:login-button 
+  scope="public_profile,email"
+  onlogin="checkLoginState();">
+</fb:login-button>
+      
+      </div>
 			<div class="social"> </div>
 			<div class="social"> </div>
 		</div>
